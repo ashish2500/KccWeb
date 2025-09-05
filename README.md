@@ -6,7 +6,7 @@
 
 <div align="center">
     <a href="https://kccn.netlify.app">Live Website</a> |
-    <a href="https://github.com/dulanjayabhanu/MediNote/discussions">Discussions</a>
+    <a href="https://github.com/dulanjayabhanu/KccWeb/discussions">Discussions</a>
 </div>
 
 <br/>
