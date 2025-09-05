@@ -1,0 +1,16 @@
+[[redirects]]
+  from = "/*"
+  to = "/404.html"
+  status = 404
+
+  [[redirects]]
+  from = "/*"
+  to = "/500.html"
+  status = 500
+
+[[redirects]]
+  from = "/index"
+  to = "https://kccweb.lk/"
+  status = 200
+  force = true
+  headers = {X-From = "Netlify"}

@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="theme-color" content="#1B1212">
+    <meta name="author" content="Dulanjaya Bhanu (DEV)">
+    <meta name="description" content="Kirindiwela Central College is a school with a rich history and a glorious present.">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://kccweb.lk/">
+    <meta property="og:site_name" content="Kirindiwela Central College Kirindiwela">
+    <meta property="og:updated_time" content="2023-11-22T20:17:51+05:30">
+    <meta property="og:title" content="Kirindiwela Central College Kirindiwela - Official Website">
+    <meta property="og:description" content="Kirindiwela Central College is a school with a rich history and a glorious present.">
+    <meta property="og:image" content="https://kccweb.lk/resources/images/source_images/logo.webp">
+    <meta property="og:image:type" content="webp">
+    <meta property="og:image:alt" content="Kirindiwela Central College Logo">
+    <meta property="twitter:title" content="Kirindiwela Central College Kirindiwela - Official Website">
+    <meta property="twitter:description" content="Kirindiwela Central College is a school with a rich history and a glorious present.">
+    <meta property="twitter:image" content="https://kccweb.lk/resources/images/source_images/logo.webp">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="keywords" content="Kirindiwela,Central,College,KCC">
+    <title>Kirindiwela Central College Kirindiwela - Official Website</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="resources/images/source_images/logo.webp">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+<div class="intro-wrapper"><img src="resources/images/source_images/logo.svg" class="intro-logo" id="targeting-logo" alt="Intro_logo"></div>
+
+<body>
+    <div class="container-fluid">
+        <div class="row d-flex flex-row justify-content-center">
+            <section class="main-content-wrapper">
+                <div class="row"><button class="offcanvas-menu-btn border" aria-hidden="true" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="offcanvasExample"><i class="bi bi-list fs-mod4" id="offcanvas-menu-icn"></i></button>
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasExampleLabel" data-bs-backdrop="true">
+                        <div class="offcanvas-body offcanvas-wrapper">
+                            <div class="col-12 pt-3">
+                                <div class="list-group">
+                                    <div class="col-12"><a href="https://kccweb.lk" type="button" class="list-group-item">Home</a>
+                                        <hr>
+                                    </div>
+                                    <div class="col-12"><button class="list-group-item" type="button" data-bs-toggle="collapse" data-bs-target="#offcanvas-collapseExample1" id="offcanvas-collapse-parent-btn1" onclick='collapseIconTogglerStart("offcanvas-collapse-parent-btn1","About")'>About&nbsp;&nbsp;<i class="bi bi-chevron-up canvas-icn"></i></button>
+                                        <div class="collapse" id="offcanvas-collapseExample1">
+                                            <div class="card card-body ps-3 pe-0 m-0 border-0 bg-transparent fs-mod3"><a href="aboutUs.html" class="list-group-item f-color1 fs-mod5">About Us</a><a href="principalsMessage.html" class="list-group-item f-color1 fs-mod5">Principal's Message</a><a href="timeline.html" class="list-group-item f-color1 fs-mod5">Time Line</a></div>
+                                        </div>
+                                        <hr>
+                                    </div>
+                                    <div class="col-12"><button class="list-group-item" type="button" data-bs-toggle="collapse" data-bs-target="#offcanvas-collapseExample2" id="offcanvas-collapse-parent-btn2" onclick='collapseIconTogglerStart("offcanvas-collapse-parent-btn2","Extra Curricular")'>Extra Curricular&nbsp;&nbsp;<i class="bi bi-chevron-up canvas-icn"></i></button>
+                                        <div class="collapse" id="offcanvas-collapseExample2">
+                                            <div class="card card-body ps-3 pe-0 m-0 border-0 bg-transparent fs-mod3"><a href="#" class="list-group-item f-color1 fs-mod5">Sports' Achievements</a><a href="clubsAndSocieties.html" class="list-group-item f-color1 fs-mod5">Clubs & Societies</a></div>
+                                        </div>
+                                        <hr>
+                                    </div>
+                                    <div class="col-12"><button class="list-group-item" type="button" data-bs-toggle="collapse" data-bs-target="#offcanvas-collapseExample3" id="offcanvas-collapse-parent-btn3" onclick='collapseIconTogglerStart("offcanvas-collapse-parent-btn3","Events")'>Events&nbsp;&nbsp;<i class="bi bi-chevron-up canvas-icn"></i></button>
+                                        <div class="collapse" id="offcanvas-collapseExample3">
+                                            <div class="card card-body ps-3 pe-0 m-0 border-0 bg-transparent fs-mod3"><a href="https://kccweb.lk/#event-section" class="list-group-item f-color1 fs-mod5">Recent Events</a></div>
+                                        </div>
+                                        <hr>
+                                    </div>
+                                    <div class="col-12"><a href="contact.html" type="button" class="list-group-item">Contact</a>
+                                        <hr>
+                                    </div>
+                                    <div class="col-12 d-flex flex-column fs-mod3"><a href="privacyPolicy.html" type="button" class="list-group-item text-decoration-none"><i class="bi bi-shield-exclamation fs-mod5 canvas-icn"></i>&nbsp;&nbsp;Privacy Policy<a type="button" class="list-group-item text-decoration-none" onclick="toggleTheme(!0)" id="theme-toggle-btn"><i class="bi bi-moon fs-mod5 canvas-icn"></i>&nbsp;&nbsp;Dark Theme</div><div class="col-12 pt-4 pb-2 d-flex flex-column"><a class="f-color2 fs-mod5" href="#">&copy; 2023 All rights reserved</a>
+                                        <span class="f-color2 fs-mod5">Developed by The CSOKCC</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><button class="back-to-top-btn border" id="backToTopButton"><div class="text-center back-to-top-btn-wrapper"><i class="bi bi-chevron-compact-up"></i></div></button>
+                    <section class="col-12 p-0 d-flex flex-row position-relative main-header-poster position-relative overflow-x-hidden">
+                        <div class="left-wall"></div>
+                        <div class="left-wall wall-back-drop1"></div>
+                        <div class="left-wall wall-back-drop2"></div>
+                        <div class="left-wall wall-back-drop3"></div>
+                        <div class="header-section d-flex flex-column align-items-center justify-content-center">
+                            <div class="row ps-4 ps-sm-0 ps-md-0 ps-lg-0">
+                                <div class="col-12 d-flex flex-row justify-content-start justify-content-sm-center justify-content-md-center justify-content-lg-center align-items-center"><img src="resources/images/source_images/logo.svg" alt="School_logo" class="main-header-logo img-fluid"></div>
+                                <div class="col-12 text-start text-sm-center text-md-center text-lg-center pt-4 d-flex flex-column gap-4">
+                                    <h4 class="text-uppercase">The Shining Star Of<br>Siyane Sky</h4><span class="text-uppercase fs-5">Kirindiwela Central College</span></div>
+                            </div>
+                        </div>
+                        <div class="content-traveller d-flex flex-row justify-content-center pb-5"><a href="#main-content" class="content-travel-btn d-flex flex-row justify-content-center align-items-center" data-bs-toggle="tooltip" data-bs-title="Dive-in" data-bs-custom-class="custom-tooltip"><i class="bi bi-mouse fs-4"></i></a></div>
+                    </section>
+                    <section class="col-12 def-content-wrapper1 text-center" id="main-content">
+                        <div class="row">
+                            <div class="col-12">
+                                <h2 class="header-type1">School Motto</h2>
+                            </div>
+                            <div class="col-12 pt-3 d-flex flex-column gap-2"><span class="fs-mod1">&quot;<span class="fs-mod1">&nbsp;සුනාථ ධාරේථ චරාථ&nbsp;</span>&quot;</span><span class="fs-mod1">&quot;<span class="fs-mod1">&nbsp;Sunatha Daretha Charatha&nbsp;</span>&quot;</span>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="col-12 def-content-wrapper2">
+                        <div class="row">
+                            <div class="col-12 col-md-4 col-lg-4 main-poster main-poster-img1">
+                                <div class="poster-detail-wall1 d-flex flex-row align-items-center ps-3 pb-4 pt-4">
+                                    <div><img src="resources/images/source_images/logo.webp" class="def-poster-school-logo" alt="School_logo"></div>
+                                    <div class="d-flex flex-column justify-content-center ps-1"><span class="text-capitalize">Main Entrance</span><span class="fs-mod2 text-capitalize">Kirindiwela Central College</span></div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4 col-lg-4 main-poster main-poster-img2">
+                                <div class="poster-detail-wall2 d-flex flex-row align-items-center ps-3 pb-4 pt-4">
+                                    <div><img src="resources/images/source_images/logo.webp" class="def-poster-school-logo" alt="School_logo"></div>
+                                    <div class="d-flex flex-column justify-content-center ps-1"><span class="text-capitalize">Bodiya</span><span class="fs-mod2 text-capitalize">Kirindiwela Central College</span></div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4 col-lg-4 main-poster main-poster-img3">
+                                <div class="poster-detail-wall3 d-flex flex-row align-items-center ps-3 pb-4 pt-4">
+                                    <div><img src="resources/images/source_images/logo.webp" class="def-poster-school-logo" alt="School_logo"></div>
+                                    <div class="d-flex flex-column justify-content-center ps-1"><span class="text-capitalize">Buddha Temple</span><span class="fs-mod2 text-capitalize">Kirindiwela Central College</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="col-12 def-content-wrapper1 text-center">
+                        <div class="col-10 col-md-8 col-lg-6 offset-1 offset-md-2 offset-lg-3">
+                            <p class="fs-mod1">Kirindiwela Central College is a school with a rich history and a glorious present.</p>
+                            <p class="fs-mod1">Since 1958, the school has managed to reach high stands nationally and internationally, Playing great roles in the fields of education, Sports and may other school activities, achieving the goals of today.</p>
+                        </div>
+                    </section>
+                    <section class="col-12 d-none d-md-none d-lg-block def-content-wrapper3">
+                        <div class="vision-mission-main-wrapper text-center">
+                            <div class="vision-mission-sub-bottom-wrapper d-flex flex-column align-items-center justify-content-center">
+                                <p class="w-50 fs-mod1">Kirindiwela Central College is the leading school wit a lot of resources in Dompe Educational Division</p>
+                                <h5 class="w-50 fs-mod1">The 1st Central College in Dompe Division</h5>
+                            </div>
+                            <div class="vision-mission-left-slider ps-5 pt-4 pb-4 pe-5">
+                                <div class="row text-start def-content-wrapper1">
+                                    <div class="col-12">
+                                        <h2 class="header-type1">Vision</h2>
+                                    </div>
+                                    <div class="col-12">
+                                        <p class="fs-mod1">Our Mission is to Raise an Respectable Child with Best Attitude Who Can Face Challenges of the New Millennium.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="vision-mission-right-slider pe-5 pt-4 pb-4 ps-5">
+                                <div class="row text-end def-content-wrapper1">
+                                    <div class="col-12">
+                                        <h2 class="header-type1">Mission</h2>
+                                    </div>
+                                    <div class="col-12">
+                                        <p class="fs-mod1">The wise man is the same. Virtues also belongs to him. It is our noble mission to give birth to a man full of communication concepts with wisdom, beauty and enjoyment to make this holy land a golden land with both
+                                            hands and feet.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="col-12 d-block d-md-block d-lg-none def-content-wrapper2 text-center">
+                        <div class="row">
+                            <div class="col-12">
+                                <h2 class="header-type1">Vision</h2>
+                            </div>
+                            <div class="col-10 col-md-8 col-lg-6 offset-1 offset-md-2 offset-lg-3">
+                                <p class="fs-mod1">Our Mission is to Raise an Respectable Child with Best Attitude Who Can Face Challenges of the New Millennium.</p>
+                            </div>
+                            <div class="col-12 def-content-wrapper2">
+                                <h2 class="header-type1">Mision</h2>
+                            </div>
+                            <div class="col-10 col-md-8 col-lg-6 offset-1 offset-md-2 offset-lg-3">
+                                <p class="fs-mod1">The wise man is the same. Virtues also belongs to him. It is our noble mission to give birth to a man full of communication concepts with wisdom, beauty and enjoyment to make this holy land a golden land with both hands
+                                    and feet.</p>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="col-12 def-content-wrapper1 text-center">
+                        <div class="row d-flex flex-row justify-content-center">
+                            <div class="col-12 col-md-8 col-lg-6">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h2 class="header-type2 text-capitalize">Present Principal</h2>
+                                    </div>
+                                    <div class="col-12 pt-2">
+                                        <div class="card-mod1 ps-4 ps-md-5 ps-lg-5 pe-4 pe-md-5 pe-lg-5 pt-4 pt-md-5 pt-lg-5 pb-4"><img src="resources/images/source_images/principal.jpg" class="card-img-mod1" alt="Principal_welcome_flyer">
+                                            <div class="card-body mt-5">
+                                                <h2 class="header-type1 fs-mod4">Welcoming Our Visionary Leader</h2>
+                                                <p class="card-text fs-mod3 pt-4">We are happy to welcome our new principal, Mr. Athula Kumara, to Kirindiwela Central College. He has a wealth of experience and enthusiasm for education. He aims to make our school a wonderful place for
+                                                    learning and development. He is excited to meet you and collaborate with you.</p>
+                                                <p class="card-text fs-mod3 pt-2">Let&apos;s greet him with a loud cheer and a warm welcome!</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="col-12 def-content-wrapper1 text-center" id="event-section">
+                        <div class="row">
+                            <div class="col-12">
+                                <h2 class="header-type1">Recent Events</h2><span class="fs-mod3"><i class="bi bi-arrow-left-right"></i>&nbsp;Slide Event Cards</span></div>
+                            <div class="col-12 col-md-10 col-md-10 offset-0 offset-md-1 offset-lg-1 def-content-wrapper2">
+                                <div class="event-card-wrapper">
+                                    <ul class="event-card-track p-1">
+                                        <li class="card-mod2">
+                                            <div class="card-img-mod2"><img src="resources/images/event_images/img2.webp" alt="School_event_photo1" draggable="false"></div>
+                                            <div class="col-12 pt-4 pb-4">
+                                                <h2 class="fs-mod1 text-wrapper event-header-area">62nd Annivessary Of<br>KCCNS - Dhamma Preaching</h2><a class="fs-mod3" onclick='window.open("https://web.facebook.com/media/set/?vanity=100095431114674&set=a.170386022819101")'>View Album</a></div>
+                                        </li>
+                                        <li class="card-mod2">
+                                            <div class="card-img-mod2"><img src="resources/images/event_images/img1.webp" alt="School_event_photo2" draggable="false"></div>
+                                            <div class="col-12 pt-4 pb-4">
+                                                <h2 class="fs-mod1 text-wrapper event-header-area">Teacher's Day Celebration</h2><a class="fs-mod3" onclick='window.open("https://web.facebook.com/media/set/?vanity=100095431114674&set=a.155673997623637")'>View Album</a></div>
+                                        </li>
+                                        <li class="card-mod2">
+                                            <div class="card-img-mod2"><img src="resources/images/event_images/img3.webp" alt="School_event_photo3" draggable="false"></div>
+                                            <div class="col-12 pt-4 pb-4">
+                                                <h2 class="fs-mod1 text-wrapper event-header-area">EBITA' 23 COMMERCE DAY 2023</h2><a class="fs-mod3" onclick='window.open("https://web.facebook.com/media/set/?vanity=100095431114674&set=a.154830861041284")'>View Album</a></div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="col-12 def-content-wrapper1 ps-0 pe-0">
+                        <div class="anniversary-wrapper">
+                            <div class="anniversary-wall"></div>
+                            <div class="anniversary-content-area d-flex flex-row justify-content-center align-items-center text-center ps-5 pe-5 pt-5">
+                                <h4 class="header-type1 anniversary-content-trigger text-uppercase">KCC mother you are our strength and pride that stays in your heart eternally</h4>
+                            </div>
+                        </div>
+                    </section>
+                    <footer class="col-12 def-content-wrapper1 d-block d-sm-block d-md-none d-lg-none">
+                        <div class="row d-flex flex-column footer-wall ps-2 pe-2 pb-4">
+                            <div class="col-12 d-flex flex-row justify-content-center"><button class="bg-transparent border-0 test" data-bs-toggle="tooltip" data-bs-title="Home" data-bs-custom-class="custom-tooltip"><img src="resources/images/source_images/logo.webp" class="footer-logo1"></button></div>
+                            <div class="col-12 d-flex flex-row justify-content-center">
+                                <div class="row d-flex flex-column text-center gap-2 flex-grow-1">
+                                    <div class="col-12 pt-3"><span class="card-text fs-mod3 text-uppercase">Kirindiwela Central College</span></div>
+                                    <div class="col-12 d-flex flex-row justify-content-center">
+                                        <ul class="list-group list-group-horizontal list-unstyled gap-5">
+                                            <li><a href="#facebook-kcc" onclick='window.open("https://web.facebook.com/KirindiwelaCentralCollege/")'><i class="bi bi-facebook fs-mod1 social-icon" data-bs-toggle="tooltip" data-bs-title="Facebook" data-bs-custom-class="custom-tooltip"></i></a></li>
+                                            <li><a href="#youtube-kcc" onclick='window.open("https://www.youtube.com/@kirindiwelacentralcollegen8678")'><i class="bi bi-youtube fs-mod1 social-icon" data-bs-toggle="tooltip" data-bs-title="You Tube" data-bs-custom-class="custom-tooltip"></i></a></li>
+                                            <li><a href="#twitter-x-kcc" onclick='window.open("https://twitter.com/i/flow/login?redirect_after_login=%2FKCentralCollege")'><i class="bi bi-twitter-x fs-mod1 social-icon" data-bs-toggle="tooltip" data-bs-title="Twitter-x" data-bs-custom-class="custom-tooltip"></i></a></li>
+                                            <li><a href="#linkedin-kcc"><i class="bi bi-linkedin fs-mod1 social-icon" data-bs-toggle="tooltip" data-bs-title="LinkedIn" data-bs-custom-class="custom-tooltip"></i></a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-12 d-flex flex-column flex-sm-row flex-md-row flex-lg-row justify-content-between pt-3"><span class="fs-mod5">&copy; 2023 All rights reserved</span><span class="fs-mod5">Developed by The CSOKCC</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </footer>
+                    <footer class="col-12 def-content-wrapper1 ps-0 pe-0 d-none d-sm-none d-md-block d-lg-block">
+                        <div class="footer-left-wall">
+                            <div class="footer-content-area d-flex flex-row justify-content-between pt-3 ps-2 pe-3 pb-3">
+                                <div class="d-flex flex-row">
+                                    <div><button class="bg-transparent border-0" data-bs-toggle="tooltip" data-bs-title="Home" data-bs-custom-class="custom-tooltip" aria-hidden="true" onclick='window.location="https://kccweb.lk"'><img src="resources/images/source_images/logo.webp" class="footer-logo2"></button></div>
+                                    <div class="my-auto">
+                                        <div class="row d-flex flex-column ps-2 my-auto gap-1">
+                                            <div class="col-12"><span class="card-text fs-mod3 text-uppercase">Kirindiwela Central College</span></div>
+                                            <div class="col-12 d-flex flex-row my-auto">
+                                                <ul class="list-group list-group-horizontal list-unstyled gap-3">
+                                                    <li><a href="#facebook-kcc" onclick='window.open("https://web.facebook.com/KirindiwelaCentralCollege/")'><i class="bi bi-facebook fs-mod1 social-icon" data-bs-toggle="tooltip" data-bs-title="Facebook" data-bs-custom-class="custom-tooltip"></i></a></li>
+                                                    <li><a href="#youtube-kcc" onclick='window.open("https://www.youtube.com/@kirindiwelacentralcollegen8678")'><i class="bi bi-youtube fs-mod1 social-icon" data-bs-toggle="tooltip" data-bs-title="You Tube" data-bs-custom-class="custom-tooltip"></i></a></li>
+                                                    <li><a href="#twitter-x-kcc" onclick='window.open("https://twitter.com/i/flow/login?redirect_after_login=%2FKCentralCollege")'><i class="bi bi-twitter-x fs-mod1 social-icon" data-bs-toggle="tooltip" data-bs-title="Twitter-x" data-bs-custom-class="custom-tooltip"></i></a></li>
+                                                    <li><a href="#linkedin-kcc"><i class="bi bi-linkedin fs-mod1 social-icon" data-bs-toggle="tooltip" data-bs-title="LinkedIn" data-bs-custom-class="custom-tooltip"></i></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-column justify-content-center text-end gap-2"><span class="f-color1 fs-mod5">&copy; 2023 All rights reserved</span><span class="f-color1 fs-mod5">Developed by The CSOKCC</span></div>
+                            </div>
+                        </div>
+                    </footer>
+                    <div class="modal fade" id="dark-mode-add" tabindex="-1">
+                        <div class="modal-dialog modal-dialog-centered modal-lg">
+                            <div class="modal-content position-relative overflow-hidden">
+                                <div class="modal-body dark-mode-wall position-relative p-0 m-0"><button class="dark-mode-add-close-btn border" type="button" data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x-lg fs-mod4 f-color4"></i></button>
+                                    <div class="dark-mode-addd-conetnt-wrapper">
+                                        <div class="row d-flex">
+                                            <div class="col-12 text-center p-5">
+                                                <h4 class="text-uppercase header-type1 fs-mod7 f-color4">Dark Mode Support</h4>
+                                                <p class="fs-mod3 pt-3 f-color3 d-none d-sm-block d-md-block d-lg-block">We are excited to introduce dark mode on our website, a new feature that lets you enjoy our content in a sleek and comfortable way. Dark mode reduces eye strain, saves battery life, and looks awesome. To
+                                                    switch to dark mode, simply click on the moon icon at the bottom. You can also toggle between light and dark mode in the settings menu. Try it out and let us know what you think. We hope you love it
+                                                    as much as we do!</p>
+                                                <p class="fs-mod3 pt-3 f-color3 d-block d-sm-none d-md-none d-lg-none">We are excited to introduce dark mode on our website, a new feature that lets you enjoy our content in a sleek and comfortable way. We hope you love it as much as we do!</p><a class="fs-mod2 bg-transparent border-0 f-color4 text-capitalize"
+                                                    onclick="toggleTheme(!0)"><i class="bi bi-moon f-color4"></i>Toggle Dark Mode</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <script defer="defer" src="bootstrap.bundle.min.js"></script>
+    <script defer="defer" src="home.js"></script>
+</body>
+
+</html>
